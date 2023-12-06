@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/*font-family: 'Merriweather', serif;*/
+/*
+#D9D9D9 cinza
+#0070be azul escuro
+#35a2f0 azul medio
+#71bef5 azul claro
+#6E3700 marrom
+*/
+
+html, body{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    background-color: #D9D9D9;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #D9D9D9;
+}
+
+header{
+    width: 100%; /* */
+    height: 5rem; /*Tamanho do header*/
+    display: flex; /*Torna o conteúdo flexível*/
+    justify-content: center; /*alinha horizontamente no centro */
+    align-items: center; /*alinha verticalmente no centro */
+    font-size: 2rem; /*Tamanho da fonte do header */
+    border-bottom: 0.1rem solid black; /*Cria uma borda na parte de baixo */
+    background-color: #0070be;
+}
+
+.hamb{
+    position: absolute; 
+    top: 1rem; 
+    left: 1rem; 
+    width: 3rem; 
+}
+
+.profile{
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem; 
+    width: 3rem; 
+}
+
+h2{
+    width: 75%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: start; 
+    align-items: center;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    margin:2.5rem ;
+    background-color: white;
+    
+}
+
+h3{
+    width: 75%;
+    font-size: 2rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    margin:2rem;
+    margin-top: 17rem;
+    background-color: #0070be;
+    font-family: 'Merriweather', serif;
+    
+}
+
+input{
+    margin-left: 0.7rem;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+.foot{
+    width: 75%;
+    font-size: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    margin:2rem;
+    background-color: #35a2f0;
+}
+
+.filtro{
+    width: 3rem;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+    background-color: transparent; 
+}
+
+h1{
+    color: black;
+    font-family: 'Charmonman', cursive;
+    font-weight: 1000;
+    font-size: 3rem;
+}
+
+.vest{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    margin-top: 1rem;
+    color: #6E3700;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
